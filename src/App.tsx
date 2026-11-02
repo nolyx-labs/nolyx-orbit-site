@@ -86,7 +86,7 @@ function Nav() {
     <header className="nav">
       <div className="wrap">
         <a href="#" className="wordmark">
-          <img src="/brand/icon.svg" alt="" />
+          <img src="brand/icon.svg" alt="" />
           <span>
             Nolyx <b>Orbit</b>
           </span>
@@ -171,7 +171,7 @@ function Hero() {
       <div ref={shot} className="hero-shot">
         <div className="glow-border">
           <img
-            src="/screens/overview-dark.webp"
+            src="screens/overview-dark.webp"
             width={2880}
             height={1800}
             alt="The Orbit overview: server, service, container and database health, items that need attention, and resource usage over 24 hours"
@@ -356,7 +356,7 @@ function Features() {
               {FEATURES.map((t, i) => (
                 <img
                   key={t.key}
-                  src={`/screens/${t.key}-dark.webp`}
+                  src={`screens/${t.key}-dark.webp`}
                   alt={t.alt}
                   width={2880}
                   height={1800}
@@ -652,7 +652,7 @@ function GetStarted() {
     <section id="get-started" className="final">
       <div className="wrap">
         <Reveal>
-          <img className="mark" src="/brand/icon.svg" alt="" />
+          <img className="mark" src="brand/icon.svg" alt="" />
           <h2>Put your servers in orbit.</h2>
           <p className="section-lede">Free and open source. Up and running in about five minutes.</p>
           <div className="term final-term">
@@ -680,7 +680,7 @@ function Footer() {
   return (
     <footer>
       <div className="wrap">
-        <img className="labs" src="/brand/logo-horizontal-on-dark.svg" alt="Nolyx Labs" />
+        <img className="labs" src="brand/logo-horizontal-on-dark.svg" alt="Nolyx Labs" />
         <span>© {new Date().getFullYear()} Nolyx Labs</span>
         <nav>
           <a href={REPO}>GitHub</a>
